@@ -1,0 +1,115 @@
+/**
+Author: devinvogue
+Date: 06/06/17
+Purpose:
+**/
+/*@import url(css/bootstrap.min.css);*/
+.navbar-inverse{
+    background-color:#146b94;
+    /*background-color: #222;*/
+  padding-top: 25px;
+  padding-bottom: 0;
+}
+.header{
+ margin-bottom: 0;
+}
+.navbar-header{
+    color: #fff;
+   padding-bottom: 0;
+    height: 60px;
+    margin-bottom: 0;
+  
+}
+a{
+    color: #151515;
+    /*font-weight: bold;*/
+    /*color: #fff;*/
+    font-size: 18px;
+
+}
+
+.navbar-header span img{
+    width: 70px;
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+
+#footer{
+    width: 100%;
+    float: left;
+    height: 100%;
+    background-color:#151515;
+    color: #696969;
+    text-align: center;
+    padding: 20px 0;
+
+}
+#footer ul li{
+    list-style: none;
+    display: inline;
+}
+
+#headline{
+    width: 100%;
+    background-color: darkcyan;
+    height:250px;
+    margin-top: 0;
+    float: left;
+
+}
+#content{
+    height: 100%;
+}
+.navbar-static-top{
+    margin-bottom: 0;
+    border-width: 0 0 0;
+
+}
+#slider{
+    width: 100%;
+    height: 800px;
+    background-color: blueviolet;
+}
+.subhead{
+    width: 100%;
+    height: 500px;
+    background-color: palegreen;
+
+}
+#subhead1{
+    width: 25%;
+    height: 250px;
+    background-color: royalblue;
+    float: left;
+ 
+
+}
+#subhead2{
+    width: 25%;
+    height: 250px;
+    background-color: purple;
+    margin: 0px 25px; 
+    float: left;
+    
+}
+
+#subhead3{
+    width: 46.1%;
+    height: 500px;
+    float: left;
+    background-color: gold;
+   
+}
+ #subhead4{
+     width: 20%;
+     height: 250;
+     float: bottom;
+     background-color: green;
+ }
+
+.contact{
+    width: 100%;
+    height: 600px;
+    background-color: violet;
+}
