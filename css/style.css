@@ -12,6 +12,7 @@ Purpose:
   padding-bottom: 0;
   margin-top: 0;
   height: 90px;
+  margin-bottom: 0;
 }
 .header{
  margin-bottom:0;
@@ -145,6 +146,7 @@ a{
 .jumbotron{
     background-color: cornsilk;
     margin-bottom: 0;
+    margin-top: 0;
 }
 .col-sm-4{
     padding: 0;
@@ -153,14 +155,14 @@ a{
 footer{
     background-color: #151515;
     width: 100%;
-    padding: 100px 0;
+    padding: 100px 40px;
     color: #696969;
     float: left;
     }
     p{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
-        color:#151515;
+        color:#253454;
     }
 
     body{
@@ -171,6 +173,9 @@ footer{
         color:brown;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
+    }
+    .list-inline,li{
+        font-size: 18px;
     }
   
 
