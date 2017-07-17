@@ -4,6 +4,7 @@ Date: 06/06/17
 Purpose:
 **/
 /*@import url(css/bootstrap.min.css);*/
+/*@import url("bootstrap.min.css")*/
 .navbar-inverse{
     background-color:#146b94;
     /*background-color: #222;*/
@@ -38,7 +39,7 @@ a{
 
 }*/
 
-
+/*
 #footer{
     width: 100%;
     float: left;
@@ -46,9 +47,9 @@ a{
     background-color:#151515;
     color: #696969;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 0;*/
 
-}
+
 #footer ul li{
     list-style: none;
     display: inline;
@@ -135,4 +136,41 @@ a{
     float:left;
     color:#fff;
     font-weight: bolder;
+
+}
+
+#address{
+    float: left;
+}
+.jumbotron{
+    background-color: cornsilk;
+    margin-bottom: 0;
+}
+.col-sm-4{
+    padding: 0;
+}
+
+footer{
+    background-color: #151515;
+    width: 100%;
+    padding: 100px 0;
+    color: #696969;
+    float: left;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color:#151515;
+    }
+
+    body{
+        padding: 100px 0;
+    }
+
+    .jumbotron,h1{
+        color:brown;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+  
 
