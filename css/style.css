@@ -6,13 +6,14 @@ Purpose:
 /*@import url(css/bootstrap.min.css);*/
 /*@import url("bootstrap.min.css")*/
 .navbar-inverse{
-    background-color:#146b94;
-    /*background-color: #222;*/
+    /*background-color:#146b94;*/
+ background-color: #21618C      ;
   padding-top:10px;
   padding-bottom: 0;
   margin-top: 0;
   height: 90px;
   margin-bottom: 0;
+ 
 }
 .header{
  margin-bottom:0;
@@ -27,6 +28,7 @@ Purpose:
 }
 a{
     color: #151515;
+      /*color: !important;*/
     /*font-weight: bold;*/
     /*color: #fff;*/
     font-size: 18px;
@@ -153,20 +155,25 @@ a{
 }
 
 footer{
-    background-color: #151515;
+    background-color: #001C35;
     width: 100%;
     padding: 100px 40px;
-    color: #696969;
+    /*color: #696969;*/
+    /*color:  #575C60;*/
+    color: #DDD !Important;
     float: left;
     }
     p{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
-        color:#253454;
+        color:#575C60;
     }
 
     body{
         padding: 100px 0;
+        /*background-color: #f4f4f2;*/
+        /*font: 1.2em/19px "helvetica neue",Helvetica,Arial,Verdana,sans-serif;*/
+            min-width: 1003px;
     }
 
     .jumbotron,h1{
@@ -177,5 +184,17 @@ footer{
     .list-inline,li{
         font-size: 18px;
     }
-  
-
+  button{
+      background-color: royalblue;
+      opacity: 1;
+  }
+.btn {
+    background-color: #001C55;
+    opacity: 1;
+    line-height: 10px;
+     padding: 10px 21px 10px 5px;
+     margin: 5px 10px 5px 0;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #DDD !important;
+}
