@@ -142,7 +142,7 @@
             </ul>
         </div>
  
-
+    </div>
 
 <footer>
     <div class="row">
@@ -183,7 +183,7 @@
 
         </div>
           </div>
-    </div>
+    
         
 
 
@@ -194,6 +194,13 @@
 <script src="../js/jquery-1.8.3.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="../js/bootstrap.min.js"></script>
+<script>
+    $('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+</script>
 </body>
 
 </html>

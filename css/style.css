@@ -15,10 +15,10 @@ Purpose:
   margin-bottom: 0;
  
 }
-.header{
+/*.header{
  margin-bottom:0;
  margin-top: 0;
-}
+}*/
 .navbar-header{
     color: #fff;
    padding-bottom: 0;
@@ -151,7 +151,7 @@ a{
     margin-top: 0;
 }
 .col-sm-4{
-    padding: 0;
+    /*padding: 0;*/
 }
 
 footer{
@@ -170,7 +170,7 @@ footer{
     }
 
     body{
-        padding: 100px 0;
+        /*padding: 100px 0;*/
         /*background-color: #f4f4f2;*/
         /*font: 1.2em/19px "helvetica neue",Helvetica,Arial,Verdana,sans-serif;*/
             min-width: 1003px;
@@ -197,4 +197,22 @@ footer{
     letter-spacing: 1.2px;
     text-transform: uppercase;
     color: #DDD !important;
+}
+.upheader{
+    width: 100%;
+    height:100px;
+    background-color: darkcyan;
+    border-bottom: 5px;
+    
+}
+
+.downheader{
+     width: 200px;
+    height: 60px;
+    
+}
+.upheader,img{
+    height: 70px;
+    align-content: center;
+   margin: 1px 5PX;
 }

@@ -10,66 +10,30 @@
     <link href="../css/style.css" rel=" stylesheet">
 </head>
 <body>
-
-     <div class="container-fluid">
-        <header class="header">
-                       
-            <nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top">
-                <span id="logo" > 
-                           <img  src="../img/scciff.jpg" alt="LOGO" class="img-rounded" ></span>
-                <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                         <span class="icon-bar"></span>
-                         <span class="icon-bar"></span>
-                         <span class="icon-bar"></span>
-         </button>
-
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav nav-pills navbar-right">
-                        
-                    
-                        <li style="clear:both"> <a href="../index.html"> Home </a></li>
-
-                        <li  role="presentation"class="dropdown"> <a class=" dropdown-toggle" data-toggle="dropdown" href="#"> About Us  <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li> <a href="../about_us/history.html"> History </a></li>
-                                <li> <a href="../about_us/mission.html"> Mission & vision </a></li>
-                                <li> <a href="../about_us/News.html"> News </a></li>
-                                <li> <a href="../about_us/Gallery.html"> Photos & Videos </a></li>
-                            </ul>
-                        </li>
-
-
-                        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Our Team  <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="../Our_Team/members.html"> Members</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Get Involved <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="../Get_Involved/Donate.html"> Donate</a></li>
-                                <li><a href="../Get_Involved/calendar.html"> Calender</a></li>
-                            </ul>
-
-                        </li>
-
-                        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Our Work <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="../Our_Work/programs.html"> Project & Programs</a></li>
-                                <li><a href="../Our_Work/resources.html"> Resources</a></li>
-                            </ul>
-                        </li>
-
-                        <li> <a href="#"> Contact Us</a></li>
-                       
-
-                    </ul>
-                </div>
+    <div class="upheader">
+       <img src="C:\Users\hp15\Desktop\Developersinvogue\dolac-codex\img\scciff.jpg">
     </div>
-    </nav>
-    </header>
+    <div class="downheader"></div>
+
+     
+<section id="content">
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <ul class="list-inline">
+                <li> E-Mail: sanctuarycompassion@yahoo.com</li><br>
+                <li>Tel: 0246663097, 0243856707, 0248399662</li>
+                <li>Website: www.sccif.webs.com</li><br>
+                <li> Location:Cape Coast secretariat: behind old ADB, BT office, 174/4 off Starlet 91 Road (Mastersam)</li><br>
+                <li>Accra: south Legon.</li>
+
+
+            </ul>
+        </div>
+    </div>
+
+</section>
+
+
 <footer>
     <div class="row">
                 <div class="col-sm-4">
@@ -120,5 +84,12 @@
 <script src="../js/jquery-1.8.3.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="../js/bootstrap.min.js"></script>
+<script>
+    $('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+</script>
 </body>
 </html>
