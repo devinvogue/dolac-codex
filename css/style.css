@@ -5,15 +5,20 @@ Purpose:
 **/
 /*@import url(css/bootstrap.min.css);*/
 /*@import url("bootstrap.min.css")*/
-.navbar-inverse{
+/*.navbar-inverse{
     /*background-color:#146b94;*/
- background-color: #21618C      ;
-  padding-top:10px;
+ /*background-color: #21618C      ;
+  padding-top:0px;
   padding-bottom: 0;
   margin-top: 0;
   height: 90px;
   margin-bottom: 0;
- 
+}*/
+.navbar-default{
+    background-color: #001C35;
+    padding: 40px 15px;
+    height: 70px;
+    
 }
 /*.header{
  margin-bottom:0;
@@ -122,7 +127,7 @@ a{
     /*background-color: violet;*/
 }
 .img-rounded {
-    width: 120px;
+    /*width: 120px;*/
 }
 #logo{
     float:left;
@@ -170,10 +175,12 @@ footer{
     }
 
     body{
-        /*padding: 100px 0;*/
+        padding: 100px 0;
+        background-color: cornsilk;
+
         /*background-color: #f4f4f2;*/
         /*font: 1.2em/19px "helvetica neue",Helvetica,Arial,Verdana,sans-serif;*/
-            min-width: 1003px;
+            /*min-width: 1003px;*/
     }
 
     .jumbotron,h1{
@@ -185,8 +192,8 @@ footer{
         font-size: 18px;
     }
   button{
-      background-color: royalblue;
-      opacity: 1;
+      /*background-color: royalblue;
+      opacity: 1;*/
   }
 .btn {
     background-color: #001C55;
