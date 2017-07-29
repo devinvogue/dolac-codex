@@ -1,23 +1,22 @@
-<!Doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Photo Gallery</title>
+    <meta name="viewport" content="width=device-width,  maximum-scale=1, user-scalable=no initial-scale=1">
+    <title> scciff</title>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/style.css" rel=" stylesheet">
-    
+    <link href="../css/style.css" rel=" stylesheet" type="text/css">
+      <link href="../css/font-awesome-4.7.0/css/font-awesome.min.css" rel=" stylesheet">
 </head>
+
 <body>
-     <div class="container-fluid">
-       <header class="header">       
-            <nav class="navbar navbar-default  navbar-fixed-top " data-spy="affix" data-offset-top="197">
+    <header class="container">
+    <nav class="navbar navbar-default  navbar-fixed-top " data-spy="affix" data-offset-top="197">
                 
                      <!--<img  src="img/scciff.jpg" alt="LOGO" class="img-responsive pull-left" ></span>-->
                 <div class="navbar-header">
-                    <img  src="../img/scciff.jpg" alt="LOGO" class="img-responsive pull-left" >
+                    <img  src="../img/scciff.jpg" alt="LOGO" class="img-responsive logo-img pull-left" >
                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                          <span class="icon-bar"></span>
                          <span class="icon-bar"></span>
@@ -26,13 +25,12 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav  navbar-nav pull-right">
-                    
-                        <li style="clear:both"> <a href="..index/html"> Home </a></li>
-
+                        <li style="clear:both"> <a href="../index.html"> Home </a></li>
                         <li  role="presentation"class="dropdown"> <a class=" dropdown-toggle" data-toggle="dropdown" href="#"> About Us  <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li> <a href="./history.html"> History </a></li>
-                                <li> <a href="./Gallery.html"> Gallery </a></li>
+                                <li> <a href="./about_us/history.html"> History </a></li>
+                               
+                                <li> <a href="./about_us/Gallery.html"> Gallery </a></li>
                             </ul>
                         </li>
 
@@ -45,8 +43,8 @@
 
                         <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Get Involved <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="../Get_Involved/Donate.html"> Donate</a></li>
-                                
+                                <li><a href="./Get_Involved/Donate.html"> Donate</a></li>
+                        
                             </ul>
 
                         </li>
@@ -54,7 +52,7 @@
                         <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Our Work <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="../Our_Work/programs.html"> Project & Programs</a></li>
-                            
+                                <li><a href="../Our_Work/resources.html"> Resources</a></li>
                             </ul>
                         </li>
 
@@ -63,11 +61,23 @@
 
                     </ul>
                 </div>
-    </div>
+    
     </nav>
     </header>
 
-
+<div class="gallery" align="center">
+<h3> sccif Photo Gallery</h3>
+<div class="thumbnails">
+	<img onmouseover="preview.src=img1.src" name="img1" src="../img/charity.jpg" alt="" />
+	<img onmouseover="preview.src=img2.src" name="img2" src="../img/desert.jpg" alt="" />
+	<img onmouseover="preview.src=img3.src" name="img3" src="../img/africa.jpg" alt="" />
+	<img onmouseover="preview.src=img4.src" name="img4" src="../img/choir.jpg" alt="" />
+	<img onmouseover="preview.src=img5.src" name="img5" src="../img/happy-children.jpg" alt="" />
+</div>
+<div class="preview" align="center">
+	<img name="preview" src="../img/CHARITY.jpg" alt=""/>
+</div>
+</div>
 
 
 
@@ -78,9 +88,9 @@
                 <div class="col-sm-4">
                     <ul class="list-inline">
                         <li><p> ADDRESS</p></li>
-                        <li> E-Mail: sanctuarycompassion@yahoo.com</li>
+                        <li><span class="glyphicon glyphicon-envelope"></span> E-Mail: sanctuarycompassion@yahoo.com</li>
                         <li> Website: www.sccif.webs.com</li>
-                        <li>Tel: 0246663097, 0243856707, 0248399662 </li>
+                        <li><span class="glyphicon glyphicon-earphone"></span> Tel: 0246663097, 0243856707, 0248399662 </li>
                         
                     </ul>
             </div>
@@ -114,7 +124,10 @@
           </div>
     </div>
         
-
+  <h2> connect with us</h2>
+<i class="fa fa-facebook fa-lg" style="font-size:50px;color:blue; margin:10px" ></i>
+<i class="fa fa-instagram fa-lg" style="font-size:50px; margin:2rem;"></i>
+<i class="fa fa-twitter fa-lg" aria-hidden="true" style="font-size:50px"></i>
 
 </footer>
 
