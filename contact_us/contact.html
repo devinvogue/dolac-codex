@@ -10,19 +10,21 @@
     <link href="../css/style.css" rel=" stylesheet">
     <link href="../css/font-awesome-4.7.0/css/font-awesome.min.css" rel=" stylesheet">
 </head>
-<body  id="contact">
-    <div class="container-fluid"?>
-    <header class="header">       
-          <nav class="navbar navbar-default  navbar-fixed-top  opaque-navbar" data-spy="affix" data-offset-top="197">
+<body  >
+      <header class="container-fluid">
+    <nav class="navbar navbar-default  navbar-fixed-top  opaque-navbar" data-spy="affix" data-offset-top="197">
                 <div class="container">
                      <!--<img  src="img/scciff.jpg" alt="LOGO" class="img-responsive pull-left" ></span>-->
                 <div class="navbar-header">
-                    <img  src="../img/scciff.jpg" alt="LOGO" class="img-responsive logo-img pull-left" >
+                    <!--<img  src="./img/scciff.jpg" alt="LOGO" class="img-responsive logo-img pull-left" >-->
                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                          <span class="icon-bar"></span>
                          <span class="icon-bar"></span>
                          <span class="icon-bar"></span>
                        </button>
+                         <a class="navbar-brand hidden-xs hidden-sm" href="#">
+            <img src="img/scciff.jpg" class="img-responsive" alt="Scciff logo" style="margin: -20px -15px 0px -10px;">
+          </a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav  navbar-nav pull-right">
@@ -66,10 +68,27 @@
     </div>
     </nav>
     </header>
+
+     <section id="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div>
+                    <img src="..\img\CHARITY.jpg" alt="Responsive image" class="img-responsive" > 
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
                     
 <section id="content">
     <div class="container">
-        <div class="row" >
+        <div class="row" style="padding:100px;">
           <div class=" col-md-6" id="panel">
         <h2>Get In Touch</h2>
 
@@ -124,7 +143,25 @@
     </div>
 
 </section>
-<div id="googleMap" style="width:100%;height:400px;"></div> 
+<!--<div id="googleMap" style="width:100%;height:400px;">
+    
+    </div> -->
+
+
+    <section>
+  <div class="container">
+      <div class="row">
+  <center><h2 style="color: #00b3fe;font-family: Open Sans; margin-top: -3%" class="delay_1" data-animate-in="animateUp"> Find Our Location On The Map</h2></center>
+
+  <div id="map"></div>
+      </div>
+</div>
+  
+</section>
+
+
+  
+ 
 
 
 <footer>
@@ -186,8 +223,26 @@
   $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
 });
 
+
+function initMap() {
+    var uluru = {lat: 5.672567, lng: -0.116246};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 12,
+      center: uluru
+
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map,
+      title: 'Sanctuary for christ international foundation'
+    });
+  }
+
      
 
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbTV10E9ZZEdGJK4EGlO9DrxiSsXYEonE&callback=initMap">
 </script>
 </body>
 </html>

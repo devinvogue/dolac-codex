@@ -17,21 +17,24 @@
                 
                      <!--<img  src="img/scciff.jpg" alt="LOGO" class="img-responsive pull-left" ></span>-->
                 <div class="navbar-header">
-                    <img  src="../img/scciff.jpg" alt="LOGO" class="img-responsive logo-img pull-left" >
+                    <!--<img  src="../img/scciff.jpg" alt="LOGO" class="img-responsive logo-img pull-left" >-->
                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                          <span class="icon-bar"></span>
                          <span class="icon-bar"></span>
                          <span class="icon-bar"></span>
                        </button>
+                          <a class="navbar-brand hidden-xs hidden-sm" href="#">
+            <img src="../img/scciff.jpg" class="img-responsive" alt="Scciff logo" style="margin: -20px -15px 0px -10px;">
+          </a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav  navbar-nav pull-right">
                         <li style="clear:both"> <a href="../index.html"> Home </a></li>
                         <li  role="presentation"class="dropdown"> <a class=" dropdown-toggle" data-toggle="dropdown" href="#"> About Us  <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li> <a href="../about_us/history.html"> History </a></li>
+                                <li> <a href="./history.html"> History </a></li>
                                
-                                <li> <a href="../about_us/Gallery.html"> Gallery </a></li>
+                                <li> <a href="#"> Gallery </a></li>
                             </ul>
                         </li>
 
@@ -65,21 +68,28 @@
     
     </nav>
     </header>
-
-<div class="gallery" align="center">
-<h3> sccif Photo Gallery</h3>
-<div class="thumbnails">
-	<img onmouseover="preview.src=img1.src" name="img1" src="../img/charity.jpg" alt="" />
-	<img onmouseover="preview.src=img2.src" name="img2" src="../img/desert.jpg" alt="" />
-	<img onmouseover="preview.src=img3.src" name="img3" src="../img/africa.jpg" alt="" />
-	<img onmouseover="preview.src=img4.src" name="img4" src="../img/choir.jpg" alt="" />
-	<img onmouseover="preview.src=img5.src" name="img5" src="../img/happy-children.jpg" alt="" />
-</div>
-<div class="preview" align="center">
-	<img name="preview" src="../img/CHARITY.jpg" alt=""/>
-</div>
-</div>
-
+    <!--images section-->
+<section>
+    <div class="container-fluid">
+        <div class="row" style="padding:100px">
+        <div class="col-sm 12">
+          <div class="gallery" align="center">
+            <h1> sccif Photo Gallery</h1>
+            <div class="thumbnails">
+	        <img onmouseover="preview.src=img1.src" name="img1" src="../img/charity.jpg" alt="" />
+	        <img onmouseover="preview.src=img2.src" name="img2" src="../img/desert.jpg" alt="" />
+	        <img onmouseover="preview.src=img3.src" name="img3" src="../img/africa.jpg" alt="" />
+	        <img onmouseover="preview.src=img4.src" name="img4" src="../img/choir.jpg" alt="" />
+	        <img onmouseover="preview.src=img5.src" name="img5" src="../img/happy-children.jpg" alt="" />
+        </div>
+       <div class="preview" align="center">
+	    <img name="preview" src="../img/CHARITY.jpg" alt=""/>
+    </div>
+    </div>
+        </div>
+        </div>
+    </div>
+</section>
 
 
 
@@ -88,7 +98,7 @@
     <div class="row">
                 <div class="col-sm-4">
                     <ul class="list-inline">
-                        <li><p> ADDRESS</p></li>
+                       <li>  <h4> ADDRESS </h4></li>
                         <li><span class="glyphicon glyphicon-envelope"></span> E-Mail: sanctuarycompassion@yahoo.com</li>
                         <li> Website: www.sccif.webs.com</li>
                         <li><span class="glyphicon glyphicon-earphone"></span> Tel: 0246663097, 0243856707, 0248399662 </li>
@@ -125,11 +135,11 @@
           </div>
     </div>
         
-  <h2> connect with us</h2>
-<i class="fa fa-facebook fa-lg" style="font-size:50px;color:blue; margin:10px" ></i>
-<i class="fa fa-instagram fa-lg" style="font-size:50px; margin:2rem;"></i>
-<i class="fa fa-twitter fa-lg" aria-hidden="true" style="font-size:50px"></i>
-
+    <h2> connect with us</h2>
+<i class="fa fa-facebook fa-lg" style="font-size:50px;color:#3b5998; margin:10px" ></i>
+<i class="fa fa-instagram fa-lg" style="font-size:50px;color:#fb3958; margin:2rem;"></i>
+<i class="fa fa-twitter fa-lg" aria-hidden="true" style="font-size:50px; color:#0084b4" ></i>
+    
 </footer>
 
 
@@ -142,6 +152,16 @@
   $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
 }, function() {
   $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+
+//opaque navbar
+ $(window).scroll(function() {
+    if($(this).scrollTop() > 50)  /*height in pixels when the navbar becomes non opaque*/ 
+    {
+        $('.opaque-navbar').addClass('opaque');
+    } else {
+        $('.opaque-navbar').removeClass('opaque');
+    }
 });
 </script>
 </body>
