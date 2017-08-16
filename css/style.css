@@ -46,7 +46,7 @@ Purpose:
 
 /*nav link bar color*/
 .navbar-default .navbar-nav>li>a {
-    color:#fff;
+    color:white;
     font-size: 20px;
     background: rgba(255, 255, 255, .1);
 
@@ -138,8 +138,25 @@ Purpose:
     padding: 0;
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_bold.woff);
+    font-weight: bold;
+}
+
+.rcorners5 {
+    border-radius: 15px 50px;
+    /*border-radius: 15px 50px 30px;*/
+    /*background: #73AD21;*/
+    padding:10px; 
+    width: 100%;
+    height: auto; 
+}
+
 footer{
-    background-color: #001C35;
+    background-color: #071328;
+    opacity: 1;
+  
     width: 100%;
     padding: 100px 40px;
     /*color: #696969;*/
