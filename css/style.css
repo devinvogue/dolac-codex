@@ -46,8 +46,10 @@ Purpose:
 
 /*nav link bar color*/
 .navbar-default .navbar-nav>li>a {
-    color: #568CD3;
+    color: #fff;
+    font-size: 20px;
     background: rgba(255, 255, 255, .1);
+
     
 
 }
@@ -180,18 +182,18 @@ footer{
   border: 0;
 }
 
-html {
+/*html {
   font-family: helvetica, arial, sans-serif;
 }
 
 /* relevant styles */
-.img__wrap {
+/*.img__wrap {
   position: relative;
   height: 200px;
   width: 257px;
-}
+}*/
 
-.img__description_layer {
+/*.img__description_layer {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -206,22 +208,10 @@ html {
   justify-content: center;
 
   /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
-}
-
-/*.img__wrap:hover .img__description_layer {
-  visibility: visible;
-  opacity: 1;
-}
-
-.img__description {
-  transition: .2s;
-  transform: translateY(1em);
-}
-
-.img__wrap:hover .img__description {
-  transform: translateY(0);
+  /*transition: opacity .2s, visibility .2s;
 }*/
+
+
 
 
     .col-sm-3{
