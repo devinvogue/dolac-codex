@@ -7,6 +7,7 @@
     <title> scciff</title>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel=" stylesheet" type="text/css">
+    <link href="../css/amimate.css" rel="styelesheet" type="text/css">
       <link href="../css/font-awesome-4.7.0/css/font-awesome.min.css" rel=" stylesheet">
 </head>
 
@@ -47,7 +48,8 @@
 
                         <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Get Involved <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="../Get_Involved/donate.html" data-toggle="modal"  data-target="#myModal"> Donate</a></li>
+                                <li><a href="#myModal" data-toggle="modal"> Donate</a></li>
+                                 <li><a href="#vModal" data-toggle="modal">Volunteer</a></li>
                         
                             </ul>
 
@@ -126,10 +128,10 @@
 
                            <div class="col-md-7 col-lg-7 col-sm-12">
 
-                             <h3 style="text-align: center; color:  teal;"> Mission and Vision</h3>
+                             <h1> Mission and Vision</h1>
                            </br>
                            <p>
-                            <h3>Mission Statement</h3>
+                            <h3  style="text-align: center; color:  teal;">Mission Statement</h3>
                  <p> To develop the quality of life of people in remote communities with key interest in the vulnerable and physically 
                      challenged by promoting education, youth development
                      empowerment and entrepreneurship through capacity building and strategic mission  with passion and commitment. </p>
@@ -193,10 +195,94 @@
                   <li data-target="#quote-carousel" data-slide-to="3"><img class="img-responsive" src="../img/street.JPG" alt="">
                   </li>
                 </ol>
-
-            
 </div>
 </section>
+
+
+<section>
+<!-- Modal for Donation -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    	<div class="modal-content row">
+				<div class="modal-header custom-modal-header">
+					<button type="button" class="close" data-dismiss="modal">×</button>
+					<h4 class="modal-title">Donate Now</h4>
+                    <p>God loves a cheerful giver  </p>
+				</div>
+				<div class="modal-body">
+					<form name="info_form" class="form-inline" action="#" method="post">
+						<div class="form-group col-sm-12">
+							<input type="text" class="form-control" name="name" id="name" placeholder="Enter Name">
+						</div>
+						<div class="form-group col-sm-12">
+							<input type="email" class="form-control" name="email" id="email" placeholder="Enter Email">
+						</div>
+						<div class="form-group col-sm-12">
+                          
+							
+						</div>
+						<div class="form-group col-sm-12">
+							<input type="text" class="form-control" name="checkout" id="cheeckout" placeholder="enter Amount">
+						</div>
+						<div class="form-group col-sm-12">
+							<input type="text" class="form-control" name="phone" id="phone" placeholder="Enter Phone">
+						</div>
+						
+						<div class="form-group col-sm-12">
+							<textarea class="form-control" id="msg" name="msg" rows="4" placeholder="Enter Message"></textarea>
+						</div>
+						<div class="form-group col-sm-12">
+							<button type="submit" class="btn btn-default pull-right">Submit</button>
+						</div>
+					</form>
+				</div>
+				
+			</div>
+			
+  </div>
+</div>
+    </section>
+
+  <section>
+<!-- Modal for volunteer-->
+<div class="modal fade" id="vModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    	<div class="modal-content row">
+				<div class="modal-header custom-modal-header">
+					<button type="button" class="close" data-dismiss="modal">×</button>
+					<h4 class="modal-title">Volunteer</h4>
+                    <p>God loves a cheerful giver  </p>
+				</div>
+				<div class="modal-body">
+					<form name="info_form" class="form-inline" action="#" method="post">
+						<div class="form-group col-sm-12">
+							<input type="text" class="form-control" name="name" id="name" placeholder="Enter Name">
+						</div>
+						<div class="form-group col-sm-12">
+							<input type="email" class="form-control" name="email" id="email" placeholder="Enter Email">
+						</div>
+					
+						<div class="form-group col-sm-12">
+							<input type="text" class="form-control" name="phone" id="phone" placeholder="Enter Phone">
+						</div>
+						
+						<div class="form-group col-sm-12">
+							<textarea class="form-control" id="msg" name="msg" rows="4" placeholder="Enter Message"></textarea>
+						</div>
+						<div class="form-group col-sm-12">
+							<button type="submit" class="btn btn-default pull-right">Submit</button>
+						</div>
+					</form>
+				</div>
+				
+			</div>
+			
+  </div>
+</div>
+    </section>
+
+
+
 
  <footer class="container-fluid">
      <div class="row">
@@ -213,7 +299,7 @@
 
         
         <div class="col-sm-4">
-           <ul class="list-inline" style="background-color:#001C35; padding:20px; text-align:center">
+           <ul class="list-inline" style="padding:20px; text-align:center">
                 <li><h3> Sanctuary Compassion Of Christ International Foundation</h3> </li>
                   <li> &copy;2017 | All Rights Reserved</li>
             </ul>

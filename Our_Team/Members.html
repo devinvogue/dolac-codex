@@ -42,13 +42,14 @@
 
                         <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Our Team  <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="../Our_Team/members.html"> Members</a></li>
+                                <li><a href="#"> Members</a></li>
                             </ul>
                         </li>
 
                         <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Get Involved <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="../Get_Involved/Donate.html"> Donate</a></li>
+                                <li><a href="#myModal" data-toggle="modal"> Donate</a></li>
+                                 <li><a href="#vModal" data-toggle="modal">Volunteer</a></li>
                         
                             </ul>
 
@@ -57,7 +58,7 @@
                         <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Our Work <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="../Our_Work/programs.html"> Project & Programs</a></li>
-                                <li><a href="../Our_Work/resources.html"> Resources</a></li>
+                               
                             </ul>
                         </li>
 
@@ -309,7 +310,7 @@ Self-Volunteer Services, Material Provision, Special Projects support, etc.</p>
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-         <h3 style="text-align: center; color: #568CD3"> Current Proposed Board Members</h3>
+         <h3 style="text-align: center; color: teal;"> Current Proposed Board Members</h3>
          <ul class="photo-grid">
 	        <li>
 		            <a href="../img/CHARITY.jpg">
@@ -435,6 +436,91 @@ Self-Volunteer Services, Material Provision, Special Projects support, etc.</p>
     
     </div>
     -->
+
+<section>
+<!-- Modal for Donation -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    	<div class="modal-content row">
+				<div class="modal-header custom-modal-header">
+					<button type="button" class="close" data-dismiss="modal">×</button>
+					<h4 class="modal-title">Donate Now</h4>
+                    <p>God loves a cheerful giver  </p>
+				</div>
+				<div class="modal-body">
+					<form name="info_form" class="form-inline" action="#" method="post">
+						<div class="form-group col-sm-12">
+							<input type="text" class="form-control" name="name" id="name" placeholder="Enter Name">
+						</div>
+						<div class="form-group col-sm-12">
+							<input type="email" class="form-control" name="email" id="email" placeholder="Enter Email">
+						</div>
+						<div class="form-group col-sm-12">
+                          
+							
+						</div>
+						<div class="form-group col-sm-12">
+							<input type="text" class="form-control" name="checkout" id="cheeckout" placeholder="enter Amount">
+						</div>
+						<div class="form-group col-sm-12">
+							<input type="text" class="form-control" name="phone" id="phone" placeholder="Enter Phone">
+						</div>
+						
+						<div class="form-group col-sm-12">
+							<textarea class="form-control" id="msg" name="msg" rows="4" placeholder="Enter Message"></textarea>
+						</div>
+						<div class="form-group col-sm-12">
+							<button type="submit" class="btn btn-default pull-right">Submit</button>
+						</div>
+					</form>
+				</div>
+				
+			</div>
+			
+  </div>
+</div>
+    </section>
+
+  <section>
+<!-- Modal for volunteer-->
+<div class="modal fade" id="vModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    	<div class="modal-content row">
+				<div class="modal-header custom-modal-header">
+					<button type="button" class="close" data-dismiss="modal">×</button>
+					<h4 class="modal-title">Volunteer</h4>
+                    <p>God loves a cheerful giver  </p>
+				</div>
+				<div class="modal-body">
+					<form name="info_form" class="form-inline" action="#" method="post">
+						<div class="form-group col-sm-12">
+							<input type="text" class="form-control" name="name" id="name" placeholder="Enter Name">
+						</div>
+						<div class="form-group col-sm-12">
+							<input type="email" class="form-control" name="email" id="email" placeholder="Enter Email">
+						</div>
+					
+						<div class="form-group col-sm-12">
+							<input type="text" class="form-control" name="phone" id="phone" placeholder="Enter Phone">
+						</div>
+						
+						<div class="form-group col-sm-12">
+							<textarea class="form-control" id="msg" name="msg" rows="4" placeholder="Enter Message"></textarea>
+						</div>
+						<div class="form-group col-sm-12">
+							<button type="submit" class="btn btn-default pull-right">Submit</button>
+						</div>
+					</form>
+				</div>
+				
+			</div>
+			
+  </div>
+</div>
+    </section>
+
+
+
  <footer class="container-fluid">
      <div class="row">
                 <div class="col-sm-4">
