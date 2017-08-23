@@ -14,6 +14,7 @@ Purpose:
   height: 90px;
   margin-bottom: 0;
 }*/
+/*@import url(//fonts.googleapis.com/css?family=Open+Sans);*/
 .navbar-default{
     background:transparent;
   background-image:none;
@@ -155,6 +156,7 @@ Purpose:
 
 footer{
     background-color: #071328;
+    /*background-color: tomato;*/
     opacity: 1;
   
     width: 100%;
@@ -188,7 +190,7 @@ footer{
     body{
        
         text-align: center;
-        font-family: 'Open Sans',sans-serif;
+        font-family: 'Open Sans', sans-serif;
         background-color: #fff;
        
     }
@@ -552,6 +554,7 @@ input:focus ~ .highlight {
     max-width: auto;
     line-height: 1;
 }
+
 
 
 
